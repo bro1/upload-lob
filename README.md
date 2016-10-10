@@ -6,10 +6,12 @@ This is a simple utility to upload a file to a clob or blob field in an existing
 
 The DB connection settings are stored in the file **loadlob.properties**:
 
+```
 connectionstring=jdbc:oracle:thin:@localhost:1521/XE
 user=testu
 pass=password
 driver=com.mysql.jdbc.Driver
+```
 
 The command line takes the following parameters in this exact order:
 
